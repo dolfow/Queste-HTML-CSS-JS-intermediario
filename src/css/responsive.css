@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+    .imagen-slider {
+        flex-direction: column;
+    }
+
+    .text-slider {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .conteudo-formulario {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .conteudo-formulario {
+        margin-right: 0.5rem;
+    }
+
+    .imagen-slider {
+        margin: 0 0.5rem;
+    }
+
+    .imagen-slider .titulo {
+        font-size: 1.8rem;
+    }
+
+    .imagen-slider .texto {
+        font-size: 1.5rem;
+    }
+}
